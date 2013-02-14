@@ -1,0 +1,9 @@
+<button class = 'startGame btnStyle'>Start Game</button>
+<button class = 'back btnStyle'>Main Menu</button>
+<div class = 'gamePadding'></div>
+<div class = 'gameBox'>
+    {{#each this}}
+        <div class = 'coin coin-{{this}}' style = "left: {{this}}px"></div>
+    {{/each}}
+</div>
+<span class = 'scoreBox scoreText'>Score: <div class = 'scoreNum scoreText'>0</div></span>
